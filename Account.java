@@ -1,4 +1,3 @@
-// Account.java
 public abstract class Account {
     protected long balance;
 
@@ -14,7 +13,6 @@ public abstract class Account {
             if (account.add(amount)) {
                 return true;
             } else {
-                // Если пополнение не удалось, возвращаем деньги на исходный счет
                 add(amount);
                 return false;
             }
