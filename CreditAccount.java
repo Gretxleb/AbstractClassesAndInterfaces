@@ -1,4 +1,3 @@
-// CreditAccount.java
 public class CreditAccount extends Account {
     private final long creditLimit;
 
